@@ -3,47 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap Desain Responsif</title>
+    <title>Login Form Bootstrap</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   </head>
   <body>
-    <!-- Small: =>576px, Medium: => 768px, Large: => 992px, Extra large: =>1200px -->
-
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <h4>content</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            omnis id ipsum dolores reiciendis. Accusamus vel ipsa ratione,
-            molestiae sit unde minima! Est vel non dicta earum nemo recusandae
-            magnam.
-          </p>
-          <p>
-            Neque et harum quisquam rerum laborum soluta facere libero ipsa rem
-            praesentium nostrum assumenda placeat aliquid at, sequi nam eius?
-            Iusto nulla nam nesciunt impedit fugit laboriosam facere alias
-            incidunt.
-          </p>
-          <p>
-            Dolor quaerat culpa consequatur perspiciatis beatae? Libero, rerum
-            corrupti. Ad sequi excepturi quasi laboriosam tempora, quam rem
-            aspernatur quibusdam alias ea placeat exercitationem reprehenderit
-            quia nostrum, dolorum at commodi necessitatibus.
-          </p>
-          <p>
-            Tenetur odio expedita consequatur velit cum. Vitae nesciunt harum
-            velit sunt perferendis consectetur eos modi accusamus? Provident
-            numquam maiores ipsa. Quo facere dolor ipsa obcaecati! Adipisci
-            rerum ex iure ab!
-          </p>
-          <p>
-            Repellendus voluptatibus officiis temporibus earum unde, ex ratione
-            ipsam error, quas fugiat necessitatibus architecto? Provident
-            perspiciatis incidunt minima, recusandae ipsa consectetur rem
-            obcaecati inventore. Ipsum sed reiciendis pariatur laudantium
-            officiis.
-          </p>
+      <div
+        class="row justify-content-center align-items-center"
+        style="height: 100vh"
+      >
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-header">LOGIN</div>
+            <div class="card-body">
+              <form action="" autocomplete="off">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="password">Password</label>
+
+                  <input
+                    type="text"
+                    name="password"
+                    id="password"
+                    class="form-control"
+                  />
+                </div>
+
+                <button type="submit" class="btn btn-primary">LOGIN</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
